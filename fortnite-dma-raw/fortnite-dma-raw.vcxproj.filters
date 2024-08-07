@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\dependencies">
+      <UniqueIdentifier>{c15a951b-4150-4c31-bebe-a43207cf0394}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\dependencies\memprocfs">
+      <UniqueIdentifier>{40c3210a-2ea9-42e8-8a95-b5e0ded710d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\dependencies\memprocfs-cpp">
+      <UniqueIdentifier>{b62abd29-6b58-42df-ae50-fdd562a03051}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\dependencies\memprocfs\include">
+      <UniqueIdentifier>{693606a1-0f2c-4190-9fce-db36f8dd1342}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\dependencies\memprocfs\lib">
+      <UniqueIdentifier>{8759832e-48f3-4b5a-914e-758af01fcd09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\dependencies">
+      <UniqueIdentifier>{98db4525-7f85-41e8-a6f2-fa1c98355ac1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\dependencies\memprocfs-cpp">
+      <UniqueIdentifier>{ed7b06fb-ffdf-42cd-9f5b-4ec43fd474d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\dependencies\imgui">
+      <UniqueIdentifier>{2449eb52-faee-4c93-9b09-7f3a073007bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\dependencies\imgui\backends">
+      <UniqueIdentifier>{332e2fc3-17bc-493e-95c4-2f9b4c866bcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\dependencies\keyauth">
+      <UniqueIdentifier>{149c9005-2fe4-4e4e-9e93-b86879424c71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\dependencies\protection">
+      <UniqueIdentifier>{784a653f-42cb-4efc-9333-74a55b44f8d7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\memprocfs-cpp\memprocfs.cpp">
+      <Filter>Source Files\dependencies\memprocfs-cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\imgui\backends\imgui_impl_dx9.cpp">
+      <Filter>Header Files\dependencies\imgui\backends</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\imgui\backends\imgui_impl_win32.cpp">
+      <Filter>Header Files\dependencies\imgui\backends</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\imgui\imgui.cpp">
+      <Filter>Header Files\dependencies\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\imgui\imgui_demo.cpp">
+      <Filter>Header Files\dependencies\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\imgui\imgui_draw.cpp">
+      <Filter>Header Files\dependencies\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\imgui\imgui_tables.cpp">
+      <Filter>Header Files\dependencies\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\imgui\imgui_widgets.cpp">
+      <Filter>Header Files\dependencies\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="render.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="utilities.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="dependencies\memprocfs\include\vmmdll.h">
+      <Filter>Header Files\dependencies\memprocfs\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\memprocfs\include\leechcore.h">
+      <Filter>Header Files\dependencies\memprocfs\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\memprocfs-cpp\logging.h">
+      <Filter>Header Files\dependencies\memprocfs-cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\memprocfs-cpp\memprocfs.h">
+      <Filter>Header Files\dependencies\memprocfs-cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\memprocfs-cpp\timer.h">
+      <Filter>Header Files\dependencies\memprocfs-cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\memprocfs-cpp\xorstr.h">
+      <Filter>Header Files\dependencies\memprocfs-cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="entity_list.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="offsets.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\imgui\backends\imgui_impl_dx9.h">
+      <Filter>Header Files\dependencies\imgui\backends</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\imgui\backends\imgui_impl_win32.h">
+      <Filter>Header Files\dependencies\imgui\backends</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\imgui\imconfig.h">
+      <Filter>Header Files\dependencies\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\imgui\imgui.h">
+      <Filter>Header Files\dependencies\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\imgui\imgui_internal.h">
+      <Filter>Header Files\dependencies\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\imgui\imstb_rectpack.h">
+      <Filter>Header Files\dependencies\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\imgui\imstb_textedit.h">
+      <Filter>Header Files\dependencies\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\imgui\imstb_truetype.h">
+      <Filter>Header Files\dependencies\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="input.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="color.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="render.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="utilities.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="globals.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="auth.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lazy.h">
+      <Filter>Header Files\dependencies\protection</Filter>
+    </ClInclude>
+    <ClInclude Include="xorstr.h">
+      <Filter>Header Files\dependencies\protection</Filter>
+    </ClInclude>
+    <ClInclude Include="Overlay.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="dependencies\memprocfs\lib\leechcore.lib">
+      <Filter>Header Files\dependencies\memprocfs\lib</Filter>
+    </Library>
+    <Library Include="dependencies\memprocfs\lib\vmm.lib">
+      <Filter>Header Files\dependencies\memprocfs\lib</Filter>
+    </Library>
+    <Library Include="dependencies\keyauth\keygen64.lib">
+      <Filter>Header Files\dependencies\keyauth</Filter>
+    </Library>
+    <Library Include="dependencies\keyauth\libcurl.lib">
+      <Filter>Header Files\dependencies\keyauth</Filter>
+    </Library>
+    <Library Include="dependencies\keyauth\library_x64.lib">
+      <Filter>Header Files\dependencies\keyauth</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
